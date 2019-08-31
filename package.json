@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Divyank Mishra",
   "license": "ISC",
+  "homepage": "https://dragano316.github.io/JavaScript_Project-3",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
@@ -24,6 +26,7 @@
     "babel-polyfill": "^6.26.0",
     "fraction": "^0.2.0",
     "fractional": "^1.0.0",
+    "gh-pages": "^2.1.1",
     "uniqid": "^5.0.3"
   }
 }
